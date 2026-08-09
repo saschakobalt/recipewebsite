@@ -968,5 +968,42 @@
       "Reispapier kurz befeuchten, flachlegen. Salat, Nudeln, Gemüse und Minze auflegen. 3 Garnelenhälften mit der rosa Seite nach unten darüberlegen.",
       "Unteren Rand einschlagen, leicht aufrollen, Seiten fest einklappen und zu Ende rollen. Mit Dipsauce servieren."
     ]
+  },
+  {
+    "id": "sopa-azteca-tortilla-soup",
+    "title": "Sopa Azteca (Tortilla-Suppe)",
+    "category": "soups",
+    "country": "Mexiko",
+    "continent": "North America",
+    "image": "assets/images/sopa-azteca-tortilla-soup.png",
+    "time": "40 minuten",
+    "yield": "3-4 Portionen",
+    "ingredients": [
+      "Suppenbasis:",
+      "2 große getrocknete Pasilla-Chilis (oder Ancho-Chilis), entstielt und entkernt",
+      "15 ml Olivenöl",
+      "1 mittelgroße weiße oder gelbe Zwiebel, gewürfelt",
+      "4 große Knoblauchzehen, gehackt",
+      "800 g Roma-Tomaten, gewürfelt (oder Dosentomaten)",
+      "1,9 L Gemüse- oder Hühnerbrühe",
+      "1/4 TL getrockneter Oregano",
+      "1 Zweig Epazote (optional)",
+      "Feines Meersalz und frisch gemahlener schwarzer Pfeffer, nach Geschmack",
+      "Einlagen & Toppings (nach Belieben):",
+      "Frittierte Tortilla-Streifen oder Tortilla-Chips",
+      "Gewürfelter Panela-Käse (oder Oaxaca, Cotija)",
+      "Gewürfelte oder geschnittene Avocado",
+      "Gekochtes, gezupftes Hähnchenfleisch",
+      "Gehackter frischer Koriander, Saure Sahne (oder Mexican Crema), Limettenspalten"
+    ],
+    "instructions": [
+      "Die Chilis über einer offenen Gasflamme oder in einer heißen Pfanne ohne Öl wenige Sekunden pro Seite anrösten, bis sie duften, und in einen Mixer geben.",
+      "Das Olivenöl in einem großen Topf bei mittlerer bis hoher Hitze erwärmen, die Zwiebel 5 Minuten anbraten, den Knoblauch hinzufügen, weitere 1–2 Minuten mitbraten und alles mit einem Schaumlöffel zum Mixer überführen.",
+      "Die Tomaten und 240 ml Brühe in den Mixer geben und alles zu einer glatten Masse pürieren.",
+      "Das Püree zurück in den Topf gießen, die restliche Brühe, Oregano und Epazote hinzufügen, aufkochen lassen und bei schwacher Hitze 10 Minuten offen köcheln lassen.",
+      "Währenddessen die gewünschten Einlagen vorbereiten und Tortilla-Streifen sowie Hähnchenfleisch auf die Servierschalen verteilen.",
+      "Die köchelnde Brühe mit Salz und Pfeffer abschmecken.",
+      "Die heiße Brühe über die Einlagen in die Schalen gießen, mit Avocado, Käse, Koriander, Saurer Sahne sowie Limette garnieren und sofort servieren."
+    ]
   }
 ]
