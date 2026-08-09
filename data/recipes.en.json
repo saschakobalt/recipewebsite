@@ -968,5 +968,42 @@
       "Dip a sheet of rice paper briefly in warm water to moisten and lay flat on the board. Lay a lettuce leaf near the bottom edge and layer a small amount of noodles, carrot, cucumber, bell pepper, and mint on top. Arrange 3 shrimp halves, pink side down, about 4 to 5 cm below the top edge of the sheet.",
       "Lift the bottom edge of the rice paper over the vegetable filling, roll upward slightly, fold in both sides tightly, and finish rolling up toward the top edge. Repeat with remaining ingredients and serve with the dipping sauce."
     ]
+  },
+  {
+    "id": "sopa-azteca-tortilla-soup",
+    "title": "Sopa Azteca (Tortilla Soup)",
+    "category": "soups",
+    "country": "Mexico",
+    "continent": "North America",
+    "image": "assets/images/sopa-azteca-tortilla-soup.png",
+    "time": "40 minutes",
+    "yield": "3-4 servings",
+    "ingredients": [
+      "Soup Broth:",
+      "2 large dried pasilla chiles (or ancho chiles), stemmed and seeded",
+      "15 ml olive oil",
+      "1 medium white or yellow onion, diced",
+      "4 large garlic cloves, minced",
+      "800 g Roma tomatoes, diced (or canned diced tomatoes)",
+      "1.9 L vegetable or chicken stock",
+      "1/4 tsp dried oregano",
+      "1 epazote sprig (optional)",
+      "Fine sea salt and freshly cracked black pepper, to taste",
+      "Soup Add-ins & Toppings (to taste):",
+      "Fried corn tortilla strips or chips",
+      "Diced panela cheese (or oaxaca, cotija)",
+      "Diced or sliced avocado",
+      "Shredded cooked chicken",
+      "Chopped fresh cilantro, sour cream (or Mexican crema), lime wedges"
+    ],
+    "instructions": [
+      "Toast the chiles over an open gas flame or in a dry skillet for a few seconds per side until fragrant and blistered, then place them in a blender.",
+      "Heat the olive oil in a large stockpot over medium-high heat, sauté the onion for 5 minutes, then add the garlic and cook for another 1–2 minutes before transferring both to the blender with a slotted spoon.",
+      "Add the diced tomatoes and 240 ml of the stock to the blender, then purée until completely smooth.",
+      "Pour the blended mixture back into the stockpot, add the remaining stock, oregano, and epazote, bring to a simmer, and cook uncovered over medium-low heat for 10 minutes.",
+      "Prep your desired add-ins while the soup simmers, placing a handful of tortilla strips and shredded chicken into individual serving bowls.",
+      "Season the simmering broth with salt and pepper to taste.",
+      "Ladle the hot broth into the serving bowls over the toppings, add avocado, cheese, cilantro, sour cream, and lime, and serve immediately."
+    ]
   }
 ]
