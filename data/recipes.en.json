@@ -1005,5 +1005,42 @@
       "Season the simmering broth with salt and pepper to taste.",
       "Ladle the hot broth into the serving bowls over the toppings, add avocado, cheese, cilantro, sour cream, and lime, and serve immediately."
     ]
+  },
+  {
+    "id": "classic-shrimp-bisque",
+    "title": "Classic Shrimp Bisque",
+    "category": "soups",
+    "country": "France",
+    "continent": "Europe",
+    "image": "assets/images/classic-shrimp-bisque.png",
+    "time": "40 minutes",
+    "yield": "4 servings",
+    "ingredients": [
+      "1 kg raw whole shell-on shrimp (heads on)",
+      "40 g unsalted butter",
+      "2 medium shallots (or 1 yellow onion), finely diced",
+      "1 medium carrot, finely diced",
+      "1 celery stalk, finely diced",
+      "2 garlic cloves, crushed",
+      "60 ml Cognac (or brandy)",
+      "120 ml dry white wine",
+      "30 g tomato paste",
+      "50 g short-grain white rice (Arborio or round soup rice)",
+      "1 classic bouquet garni",
+      "1.3 L water or light fish stock",
+      "100 ml heavy cream (crème fraîche or double cream)",
+      "Fresh lemon juice, to taste"
+    ],
+    "instructions": [
+      "Twist off the shrimp heads and peel the shells, keeping all heads and shells in a bowl; devein the raw shrimp meat, season lightly with salt, and chill in the fridge.",
+      "Melt 20 g of butter in a large Dutch oven over high heat, add the raw shrimp shells and heads, and sear intensely for 6–8 minutes, crushing them firmly with a wooden spoon to extract juices until deeply browned.",
+      "Lower the heat to medium, add the shallots, carrot, and celery, sauté for 4 minutes until tender, then stir in the garlic and tomato paste for 1 minute.",
+      "Pour in the Cognac and flambé (or reduce completely), pour in the white wine, and simmer until the liquid is reduced by half.",
+      "Add the uncooked rice, bouquet garni, and water, bring to a boil, cover, and simmer gently over low heat for 30 minutes until the rice is completely tender.",
+      "Remove the bouquet garni, transfer the contents of the pot in batches into a high-speed blender, and pulse briefly to break down the shells and blend the softened rice.",
+      "Pass the mixture through a fine-mesh conical sieve (chinois), pressing firmly with a ladle to extract all liquid, and discard the solids.",
+      "Pour the strained soup back into the pot over medium-low heat, stir in the heavy cream, and season with salt, white pepper, cayenne, and a few drops of lemon juice.",
+      "In a separate skillet, sear the reserved raw shrimp meat in the remaining 20 g of butter for 1–2 minutes per side until just opaque, divide among warm bowls, ladle the hot bisque over the top, and serve."
+    ]
   }
 ]
