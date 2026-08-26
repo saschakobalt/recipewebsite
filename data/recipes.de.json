@@ -1005,5 +1005,42 @@
       "Die köchelnde Brühe mit Salz und Pfeffer abschmecken.",
       "Die heiße Brühe über die Einlagen in die Schalen gießen, mit Avocado, Käse, Koriander, Saurer Sahne sowie Limette garnieren und sofort servieren."
     ]
+  },
+  {
+    "id": "classic-shrimp-bisque",
+    "title": "Klassische Garnelenbisque",
+    "category": "soups",
+    "country": "Frankreich",
+    "continent": "Europe",
+    "image": "assets/images/classic-shrimp-bisque.png",
+    "time": "40 Minuten",
+    "yield": "4 Portionen",
+    "ingredients": [
+      "1 kg rohe ganze Garnelen mit Kopf und Schale",
+      "40 g ungesalzene Butter",
+      "2 Schalotten (oder 1 gelbe Zwiebel), fein gewürfelt",
+      "1 Karotte, fein gewürfelt",
+      "1 Stangensellerie, fein gewürfelt",
+      "2 Knoblauchzehen, angedrückt",
+      "60 ml Cognac (oder Weinbrand)",
+      "120 ml trockener Weißwein",
+      "30 g Tomatenmark",
+      "50 g Rundkornreis (z. B. Risottoreis)",
+      "1 klassisches Bouquet garni",
+      "1,3 L Wasser oder heller Fischfond",
+      "100 ml flüssige Sahne (oder Crème fraîche)",
+      "Frischer Zitronensaft, nach Geschmack"
+    ],
+    "instructions": [
+      "Die rohen Garnelen köpfen und schälen, Schalen und Köpfe in einer Schüssel sammeln; das Garnelenfleisch entdarmen, leicht salzen und kalt stellen.",
+      "20 g Butter in einem großen Schmortopf bei starker Hitze schmelzen, Schalen und Köpfe hineingeben und 6–8 Minuten unter kräftigem Zerdrücken mit einem Kochlöffel kräftig anrösten.",
+      "Die Hitze auf mittlere Stufe reduzieren, Schalotten, Karotte und Sellerie zugeben, 4 Minuten weich dünsten, dann Knoblauch und Tomatenmark 1 Minute mitrösten.",
+      "Den Cognac angießen und flambieren (oder vollständig einkochen lassen), den Weißwein hinzufügen und um die Hälfte reduzieren lassen.",
+      "Den ungekochten Reis, das Bouquet garni und das Wasser zugeben, aufkochen, abdecken und bei schwacher Hitze 30 Minuten sanft köcheln lassen, bis der Reis weich ist.",
+      "Das Bouquet garni entfernen, den Inhalt des Topfes portionsweise in einem Standmixer kurz anpürieren, um die Schalen aufzubrechen und den Reis zu binden.",
+      "Die Masse durch ein feines Spitzsieb streichen, mit einer Schöpfkelle kräftig ausdrücken und die festen Rückstände entsorgen.",
+      "Die passierte Bisque zurück in den Topf geben, die Sahne einrühren und mit Salz, weißem Pfeffer, Cayennepfeffer und etwas Zitronensaft abschmecken.",
+      "In einer separaten Pfanne das rohe Garnelenfleisch in den restlichen 20 g Butter für 1–2 Minuten pro Seite braten, auf tiefe Teller verteilen, die heiße Bisque darübergießen und sofort servieren."
+    ]
   }
 ]
