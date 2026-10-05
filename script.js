@@ -1,3 +1,16 @@
+function getImageUrl(imagePath) {
+  if (!imagePath) return '';
+  return imagePath.replace(/\.png($|\?)/i, '.webp$1');
+}
+
+// Global fallback to ensure any .png image request is redirected to .webp
+document.addEventListener('error', (event) => {
+  const target = event.target;
+  if (target && target.tagName === 'IMG' && target.src && /\.png($|\?)/i.test(target.src)) {
+    target.src = target.src.replace(/\.png($|\?)/i, '.webp$1');
+  }
+}, true);
+
 async function getData(file) {
   try {
     const currentLang = localStorage.getItem('language') || 'de';
@@ -15,11 +28,10 @@ async function getData(file) {
     }
     const data = await res.json();
     if (Array.isArray(data)) {
-      return data.map(item => {
-        if (item && typeof item.image === 'string' && item.image.endsWith('.png')) {
-          return { ...item, image: item.image.replace(/\.png$/i, '.webp') };
+      data.forEach(item => {
+        if (item && item.image) {
+          item.image = getImageUrl(item.image);
         }
-        return item;
       });
     }
     return data;
@@ -38,7 +50,7 @@ async function initHome() {
     catGrid.innerHTML = categories.map(cat => `
       <a href="category.html?id=${cat.id}" class="category-card">
         <div class="category-image-wrapper">
-          <img src="${cat.image}" alt="${cat.title}">
+          <img src="${getImageUrl(cat.image)}" alt="${cat.title}">
         </div>
         <span class="category-title">${cat.title}</span>
       </a>
@@ -60,7 +72,7 @@ async function initHome() {
       heroTitle.innerHTML = displayTitle;
     }
     if (heroImage) {
-      heroImage.src = latest.image;
+      heroImage.src = getImageUrl(latest.image);
       heroImage.alt = latest.title;
     }
     if (heroLink) heroLink.href = `recipe.html?id=${latest.id}`;
@@ -160,7 +172,7 @@ async function initCategory() {
 
     grid.innerHTML = result.map(r => `
       <a href="recipe.html?id=${r.id}" class="recipe-card">
-        <img src="${r.image}" alt="${r.title}" class="recipe-card-img">
+        <img src="${getImageUrl(r.image)}" alt="${r.title}" class="recipe-card-img">
         <div class="recipe-card-title">${r.title}</div>
       </a>
     `).join('');
@@ -301,7 +313,7 @@ function buildPrintDocument(recipe) {
       <div class="print-meta">Time: ${escapeHtml(recipe.time)} • Yield: ${escapeHtml(recipe.yield)}</div>
     </div>
     <div class="print-grid">
-      <img class="print-image" src="${escapeHtml(recipe.image)}" alt="${escapeHtml(recipe.title)}">
+      <img class="print-image" src="${escapeHtml(getImageUrl(recipe.image))}" alt="${escapeHtml(recipe.title)}" onerror="if (this.src.includes('.png')) this.src = this.src.replace(/\.png($|\?)/i, '.webp$1');">
       <div class="print-ingredients">
         <h2>Ingredients</h2>
         <ul class="print-ingredients-list">${ingredientsMarkup}</ul>
@@ -328,7 +340,7 @@ async function initRecipe() {
   if (!recipe) return;
 
   document.getElementById('recipe-title').textContent = recipe.title;
-  document.getElementById('recipe-image').src = recipe.image;
+  document.getElementById('recipe-image').src = getImageUrl(recipe.image);
   document.getElementById('recipe-time').textContent = recipe.time;
   document.getElementById('recipe-yield').textContent = recipe.yield;
 
@@ -442,7 +454,7 @@ async function initSearch() {
     resultsSummary.textContent = `Showing ${matches.length} recipe${matches.length === 1 ? '' : 's'} matching “${query.trim()}”.`;
     resultsGrid.innerHTML = matches.map((recipe) => `
       <a href="recipe.html?id=${recipe.id}" class="recipe-card">
-        <img src="${recipe.image}" alt="${recipe.title}" class="recipe-card-img">
+        <img src="${getImageUrl(recipe.image)}" alt="${recipe.title}" class="recipe-card-img">
         <div class="recipe-card-title">${recipe.title}</div>
       </a>
     `).join('');
