@@ -13,7 +13,16 @@ async function getData(file) {
     if (!res.ok) {
       throw new Error(`HTTP error! status: ${res.status}`);
     }
-    return await res.json();
+    const data = await res.json();
+    if (Array.isArray(data)) {
+      return data.map(item => {
+        if (item && typeof item.image === 'string' && item.image.endsWith('.png')) {
+          return { ...item, image: item.image.replace(/\.png$/i, '.webp') };
+        }
+        return item;
+      });
+    }
+    return data;
   } catch (error) {
     console.error(`Could not load ${file}:`, error);
     return null;
